@@ -63,7 +63,7 @@ jobs:
              if [ "$VERSION" == "12" ]; then
              git clone --recurse-submodules https://github.com/rahulkhatri137/SGSIs -b main SGSIs
              elif [ "$VERSION" == "11" ]; then
-             git clone --recurse-submodules https://github.com/rahulkhatri137/SGSIs -b main11 SGSIs
+             git clone --recurse-submodules https://github.com/RAZTY/SGSIs -b main11 SGSIs
              elif [ "$VERSION" == "13" ]; then
              git clone --recurse-submodules https://github.com/rahulkhatri137/SGSIs -b main13 SGSIs
              fi
